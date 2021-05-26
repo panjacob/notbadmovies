@@ -1,0 +1,94 @@
+$background_color: #343a40;
+$ahref_color: #007bff;
+$text_color: #d4d4d4;
+
+body {
+  background: linear-gradient(to right, #111e44, #040d17); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+div {
+  color: $text_color;
+}
+
+p {
+  color: $text_color;
+  text-align: left;
+}
+
+a {
+  color: $text_color;
+}
+
+.card, .card-title {
+  background-color: transparent;
+  color: $text_color;
+}
+
+.card-title {
+  color: $text_color;
+  text-align: center;
+}
+
+.card-title:hover {
+  color: $ahref_color;
+}
+
+a:hover {
+  text-decoration: none;
+  color: $ahref_color;
+}
+
+.arrow {
+  color: $text_color;
+}
+
+.arrow:hover {
+  cursor: pointer;
+  color: $ahref_color;
+}
+
+.pills {
+  margin-left: 0.7em;
+  margin-right: 0.7em;
+}
+
+.form-control {
+  background-color: rgba(255, 255, 255, 0.05);
+
+  color: $text_color;
+  //border: none;
+  text-align: center;
+
+  border-color: $text_color;
+  //border-top: none;
+  //border-radius: 30%;
+}
+
+.form-control:focus {
+  background-color: rgba(255, 255, 255, 0.05);
+  color: white;
+  border: none;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: $text_color;
+}
+
+img {
+  border-radius: 10%;
+}
+
+nav {
+  background-color: transparent;
+}
+
+select option {
+  background-color: $background_color;
+  font-size: 120%;
+}
+
+
+iframe {
+  border-color: transparent;
+  border-radius: 5%;
+}
